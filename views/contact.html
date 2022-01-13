@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruthviraj Patil</title>
+    <link rel="icon" type="image/x-icon" href="../static/favicon.JPG">
+    <link rel="stylesheet" href="../static/contactstyle.css">
+    <script src="../js/menu.js"></script>
+    <link rel="stylesheet" href="../static/contact-responsive.css">
+
+
+</head>
+<body>
+    <div class="main-head">
+        <div class="logo">
+        <a href="./about.html">    <img src="../static/favicon.JPG" alt="Logo"></a>
+        </div>
+        <div class="navbar" id="main-nav">
+            <a href="../index.html" id="anc-home"> <li  >Home</li></a>
+            <a href="./about.html" id="anc-about"> <li >About</li></a>
+            <a href="./skills.html" id="anc-skills">  <li  >Skills</li></a> 
+            <a href="./contact.html" id="anc-contact">  <li class="active">Contact</li></a>
+          
+         
+          
+          
+        </div>
+        <div class="menu1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAAsElEQVRoge3WQQrCMBSE4Xk5R117CG/gQbLrgXoSr+A97M6127xuWmjEKAWxT/g/KE1DAhMoZCQAAP6YrT9O18fZrAwudZ82enGV4vL5KU/v9+P2/tZ4NipZvvfHyzKRqtPEDi9JndyH9UR1gODhl5CH5gHCh3+h/oWkMXx40615AE8pS/WCcOFdub0AAH6NLkQX2nqp0YX2Dk8XAoBvogvRhbZeanShvcPThQAACGQCdDgRWQ5hfYsAAAAASUVORK5CYII=" id="menuid" onclick="func()"/>
+        </div>
+    </div>
+    <div class="intro1" >
+        <div class="name-at-top" >
+            <h1  class="typing" id="first-intro"> </h1>
+
+        </div>
+       
+    </div>
+   
+        <div class="main-form">
+            <form
+            action="https://formspree.io/f/moqrvnaa"
+            method="POST"
+          >
+         <div class="name-box">
+             <b>
+
+                 Your Name:
+             </b>
+            <input type="text" name="name" id="nameof" placeholder="Enter your name" required>
+         </div>
+         <div class="email-box">
+            <b>
+
+                Your email:
+            </b>
+            <input type="email" name="_replyto" placeholder="Enter your Email" required>
+         </div>
+         
+         <div class="msg-box">
+          <b>
+
+              Your message:
+          </b>
+            <textarea name="message" placeholder="Explain your message or query..." required></textarea>
+         </div>
+         <div class="final-box">
+             <div class="submit-box">
+
+                 <button type="submit" class="btn">SUBMIT</button>
+            </div>
+            <div class="reset-box">
+                <button type="reset" class="btn">RESET</button>
+            </div>
+        </div>
+        
+    </form>
+    </div>
+    <div class="footer">
+        <div class="img-box">
+        <a href="https://www.instagram.com/pruthvi905/" target="_blank">
+ 
+            <img src="../static/instagram.png" alt="Insta Logo">
+        </a>
+        <a href="https://www.linkedin.com/in/pruthviraj-patil-a76962210/" target="_blank">
+ 
+            <img src="../static/linkedin.png" alt="" alt="Linked-In Logo">
+        </a>
+        <a href="mailto:prithviraj.skillbee@gmail.com" target="_blank">
+
+            <img src="../static/gmail.png" alt="" alt="GmailLogo">
+        </a>
+        </div>
+        <div class="copyright">
+            <span> &#169;</span>
+            <span> <a href="../index.html" id="admin">Pruthviraj Patil</a>  </span>
+            <span> &nbsp; 2022 | All rights reserved.</span>
+          
+        </div>
+     </div> 
+    <script>
+        var i = 0;
+        var txt = 'Contact Form';
+        var speed = 110;
+        
+        (function typeWriter() {
+          if (i < txt.length) {
+            document.getElementById("first-intro").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+          }
+        }) ();
+        </script>
+</body>
+</html>
