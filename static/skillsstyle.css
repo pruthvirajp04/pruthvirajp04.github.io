@@ -1,0 +1,90 @@
+/* *{
+    background-color: rgb(209, 205, 192);
+} */
+body{
+    height: 1111px;
+    /* background-color: black; */
+}
+.main-head{
+    /* position: fixed; */
+    /* border:  3px solid red; */
+    display: flex;
+    overflow: hidden;
+  background-color: #333;
+margin-bottom: 233px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* height: 77px; */
+}
+.logo{
+    /* border:  3px solid black; */
+    margin: 12px 12px;
+
+    /* border-radius: 25%; */
+}
+.navbar{
+    /* justify-content: right; */
+    position: relative;
+    border-radius: 22px;
+    margin-left: 750px;
+    /* width: 12%; */
+    width: 360px;
+    margin-bottom: 23px;
+    margin-top: 12px;
+    margin-right: 12px;
+    /* height: 230px; */
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+    /* border:  3px solid blue; */
+
+}
+.navbar a li{
+  margin: 12px 12px;
+}
+.navbar a{
+    color: rgb(231, 184, 184);
+    font-size: 24px;
+ text-decoration: none;
+}
+.navbar a:hover
+{text-decoration: underline; font-size: 25px;
+    color: rgb(219, 189, 16);
+}
+.logo img{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+}
+.active{
+    color: rgb(219, 189, 16);
+    font-size: 25px;
+    text-decoration: underline;
+}
+.menu1{
+    margin-top: 20px ;
+    width: 70px;
+    height: 65px;
+    /* border: 2px solid red; */
+ 
+}
+.menu1 img{
+    cursor: pointer;
+}
+.typing::after{
+    content: " ";
+    border-right: 2px solid black;
+    animation: blink 0.5s infinite ease;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#loading{
+    background-color: black;
+}
