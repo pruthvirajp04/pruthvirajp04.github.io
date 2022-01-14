@@ -1972,7 +1972,7 @@ textarea
   }
   .main-form{
     font-size: 26px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -2125,7 +2125,7 @@ textarea
   }
   .main-form{
     font-size: 26px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -2279,7 +2279,7 @@ textarea
   }
   .main-form{
     font-size: 26px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -2433,7 +2433,7 @@ textarea
       }
       .main-form{
         font-size: 26px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 80%;
         display: flex;
         flex-direction: column;
@@ -2588,7 +2588,7 @@ textarea
   }
   .main-form{
     font-size: 26px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     display: flex;
     flex-direction: column;
