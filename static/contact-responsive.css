@@ -1631,16 +1631,10 @@ textarea
 }
 @media only screen and (min-width : 701px) and (max-width : 800px)
 {
-    #menuid{
+    .menu1{
         display: none;
     }
-#main-nav{
-    /* z-index: -1; */
-    margin-left: 200px;
 
-   
-    font-family: 'Roboto Mono', monospace;
-}
 #first-intro{
     font-size: 80px;
 }
