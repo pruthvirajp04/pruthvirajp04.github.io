@@ -12,12 +12,14 @@ body{
     /* border:  3px solid red; */
     display: flex;
     overflow: hidden;
-  background-color: #333;
+  background-color: rgb(2, 1, 1);
 margin-bottom: 233px;
   position: fixed;
+  justify-content: space-between;
   top: 0;
   width: 100%;
   /* height: 77px; */
+  /* position: relative; */
 }
 .logo{
     /* border:  3px solid black; */
@@ -27,20 +29,20 @@ margin-bottom: 233px;
 }
 .navbar   {
     
-    position: relative;
+    font-family:  sans-serif;
     border-radius: 22px;
-    margin-left: 750px;
-    width: 360px;
+   
     margin-bottom: 23px;
     margin-top: 12px;
-    margin-right: 12px;
+
     display: flex;
     list-style: none;
-    /* border:  3px solid blue; */
+   
 
 }
 .navbar a li{
     margin: 12px 12px;
+    font-size: 19px;
 }
 .navbar a{
     color: rgb(231, 184, 184);
@@ -48,7 +50,7 @@ margin-bottom: 233px;
     text-decoration: none;
 }
 .navbar a:hover
-{text-decoration: underline; font-size: 25px;
+{text-decoration: underline; 
     color: rgb(219, 189, 16);
 }
 .logo img{
@@ -58,7 +60,7 @@ margin-bottom: 233px;
 }
 .active{
     color: rgb(219, 189, 16);
-    font-size: 25px;
+    /* font-size: 25px; */
     text-decoration: underline;
 }
 .menu1{
@@ -68,9 +70,7 @@ margin-bottom: 233px;
     /* border: 2px solid red; */
     
 }
-.menu1 img{
-    cursor: pointer;
-}
+
 .typing::after{
     content: " ";
     border-right: 2px solid black;
