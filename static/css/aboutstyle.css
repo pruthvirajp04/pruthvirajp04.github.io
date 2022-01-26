@@ -27,7 +27,8 @@ margin-bottom: 233px;
     /* border-radius: 25%; */
 }
 .navbar   {
-    font-family: sans-serif;
+    font-family: cursive    ;
+    padding: 3px 3px;
     /* position: relative; */
     border-radius: 22px;
     /* margin-left: 750px;g */
@@ -113,7 +114,9 @@ margin-bottom: 233px;
     
 }
 .intro-box h1{
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   font-family: cursive;
+   color: rgb(5, 1, 68);
 }
 .intro-box li,p{
    font-family: monospace;
@@ -127,14 +130,19 @@ margin-bottom: 233px;
     text-decoration: underline;
 }
 .footer{
-    /* width: 100%; */
-    margin-top: 150px;
+    border-top: 1px solid black;
+    margin-top: 200px;
     /* border: 2px solid black; */
     /* padding: 23px 23px; */
+    background: #fafafa;
+  
+  
     align-items: center;
     display: block;
 }
 .img-box {
+    margin-top: 40px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     /* border: 2px solid blue; */
