@@ -29,7 +29,8 @@ margin-bottom: 233px;
 }
 .navbar   {
     
-    font-family:  sans-serif;
+    font-family: cursive    ;
+    padding-right: 20px;
     border-radius: 22px;
    
     margin-bottom: 23px;
@@ -87,4 +88,11 @@ margin-bottom: 233px;
 .footer img{
     width: 55px;
     height: 55px;
+}
+.footer{
+    border-top: 1px solid black;
+    margin-top: 200px;
+    /* border: 2px solid black; */
+    /* padding: 23px 23px; */
+    background: #fafafa;
 }
