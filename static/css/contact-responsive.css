@@ -67,11 +67,11 @@
        /* border: 2px solid red;*/
         font-size: 30px;
         color: rgb(39, 30, 14);
-        height: 670px;
+        /* height: 670px; */
        display: flex;
        flex-direction: column;
        justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 1rem;
     }
     
     .head-apply{
@@ -186,7 +186,7 @@
    /* border: 2px solid red;*/
     font-size: 30px;
     color: rgb(39, 30, 14);
-    height: 670px;
+    /* height: 670px; */
    display: flex;
    justify-content: space-between;
     margin-top: 1rem;
