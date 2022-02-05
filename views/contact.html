@@ -10,7 +10,7 @@
     <script src="../js/menu.js"></script>
     <link rel="stylesheet" href="../static/css/contact-responsive.css">
     <link rel="stylesheet" href="../static/css/scroller.css">
-
+    <link rel="stylesheet" href="../static/css/footer.css">
 </head>
 <body>
     <div class="main-head">
@@ -32,52 +32,52 @@
         </div>
     </div>
     <div class="intro1" >
-        <div class="name-at-top" >
+       
             <h1  class="typing" id="first-intro"> </h1>
 
         </div>
        
     </div>
    
-        <div class="main-form">
-            <form
-            action="https://formspree.io/f/moqrvnaa"
-            method="POST"
-          >
-         <div class="name-box">
-             <b>
+    <div id="contact">
+        <div class="head-apply">
+            <h2>
 
-                 Your Name:
-             </b>
-            <input type="text" name="name" id="nameof" placeholder="Enter your name" required>
-         </div>
-         <div class="email-box">
-            <b>
-
-                Your email:
-            </b>
-            <input type="email" name="_replyto" placeholder="Enter your Email" required>
-         </div>
-         
-         <div class="msg-box">
-          <b>
-
-              Your message:
-          </b>
-            <textarea name="message" placeholder="Explain your message or query..." required></textarea>
-         </div>
-         <div class="final-box">
-             <div class="submit-box">
-
-                 <button type="submit" class="btn">SUBMIT</button>
-            </div>
-            <div class="reset-box">
-                <button type="reset" class="btn">RESET</button>
-            </div>
+                Why wait! Message directly here . Explain your query, syggestions,and much more...
+            </h2>
         </div>
-        
-    </form>
-    </div>
+        <div class="main-form">
+          <h2>
+            Fill out the details below
+
+          </h2>
+          <form
+          action="https://formspree.io/f/moqrvnaa"
+          method="POST"
+        >
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter First Name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Enter Last Name.." required>
+
+    <label for="email">Email </label>
+    <input type="email" name="email" id="" placeholder="Enter Email Address" required>
+    <label for="message">Your message</label>
+    <input type="text" id="msg" name="message" placeholder="Your message here ..." required>
+       <div class="final-box">
+           <div class="submit-box">
+
+               <button type="submit" class="btn"> SUBMIT</button>
+          </div>
+          <div class="reset-box">
+              <button type="reset" class="btn">RESET</button>
+          </div>
+      </div>
+      
+  </form>
+        </div>
+    </div>  
     <div class="footer">
         <div class="img-box">
         <a href="https://www.instagram.com/pruthvi905/" target="_blank">

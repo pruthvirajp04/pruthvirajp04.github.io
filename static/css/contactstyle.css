@@ -13,10 +13,12 @@ body{
     display: flex;
     overflow: hidden;
   background-color: rgb(2, 1, 1);
-margin-bottom: 233px;
+/* margin-bottom: 233px; */
   position: fixed;
   justify-content: space-between;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   /* height: 77px; */
   /* position: relative; */
@@ -29,12 +31,11 @@ margin-bottom: 233px;
 }
 .navbar   {
     
-    font-family: cursive    ;
-    padding-right: 20px;
-    border-radius: 22px;
+    font-family: cursive;
+    padding-right: 1rem;
    
-    margin-bottom: 23px;
-    margin-top: 12px;
+   
+    margin: 1rem;
 
     display: flex;
     list-style: none;
@@ -43,11 +44,11 @@ margin-bottom: 233px;
 }
 .navbar a li{
     margin: 12px 12px;
-    font-size: 19px;
+    font-size: 1.3rem;
 }
 .navbar a{
     color: rgb(231, 184, 184);
-    font-size: 24px;
+    /* font-size: 24px; */
     text-decoration: none;
 }
 .navbar a:hover
@@ -65,9 +66,13 @@ margin-bottom: 233px;
     text-decoration: underline;
 }
 .menu1{
-    margin-top: 20px ;
-    width: 70px;
-    height: 65px;
+    margin-left: 0rem ;
+    margin-top: 0.8rem ;
+    margin-right: 0.8rem ;
+    margin-bottom: 0.8rem ;
+
+    width: 3rem;
+    height: 3rem;
     /* border: 2px solid red; */
     
 }
@@ -84,15 +89,4 @@ margin-bottom: 233px;
     100%{
         opacity: 1;
     }
-}
-.footer img{
-    width: 55px;
-    height: 55px;
-}
-.footer{
-    border-top: 1px solid black;
-    margin-top: 200px;
-    /* border: 2px solid black; */
-    /* padding: 23px 23px; */
-    background: #fafafa;
 }
