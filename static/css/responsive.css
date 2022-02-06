@@ -3,44 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&family=Roboto:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&family=Taviraj&display=swap');
-/* *{
-    user-select: none;
-} */
-@media (min-width : 0px) and (max-width : 209px)
-{
-    *{
-        display: none;
-    }
-}
+
 @media (min-width : 210px) and (max-width : 249px)
 {   
    
-    .navbar{
-        margin-left: 30px;
-        width: 100px;
-        display: none;
-
-    }
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 44px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 12px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
     
     .intro1{
         text-align: center;
@@ -143,32 +109,7 @@
 @media (min-width : 250px) and (max-width : 300px)
 {
     
-    .navbar{
-        margin-left: 80px;
-        width: 100px;
-        display: none;
-
-    }
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 80px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 2px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
+   
     
     .intro1{
         text-align: center;
@@ -271,32 +212,7 @@
 @media only screen and (min-width : 301px) and (max-width : 350px)
 {
     
-    .navbar{
-        margin-left: 125px;
-        width: 100px;
-        display: none;
-
-    }
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 80px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 12px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
+    
   
     .intro1{
         text-align: center;
@@ -397,31 +313,7 @@
 }
 @media only screen and (min-width : 351px) and (max-width : 380px)
 {
-    .navbar{
-        margin-left: 175px;
-        width: 100px;
-      display: none;
-    }
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 130px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 20px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
+  
    
     .intro1{
         text-align: center;
@@ -523,32 +415,7 @@
 }
 @media only screen and (min-width : 381px) and (max-width : 425px)
 {
-    .navbar{
-        margin-left: 204px;
-        width: 100px;
-       display: none;
-    }
-   
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 160px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 20px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
+    
    
 
     .intro1{
@@ -651,32 +518,7 @@
 }
 @media only screen and (min-width : 426px) and (max-width : 440px)
 {
-    .navbar{
-        margin-left: 223px;
-        width: 100px;
-       display: none;
-    }
-    
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 150px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 20px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
+   
   
     .intro1{
         text-align: center;
@@ -778,32 +620,7 @@
 }
 @media only screen and (min-width : 441px) and (max-width : 458px)
 {
-    .navbar{
-        margin-left: 220px;
-        width: 100px;
-      display: none;
-    }
     
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 150px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 28px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
    
     .intro1{
         text-align: center;
@@ -906,32 +723,7 @@
 }
 @media only screen and (min-width : 459px) and (max-width : 480px)
 {
-    .navbar{
-        margin-left: 215px;
-        width: 100px;
-        display: none;
-    }
     
-    .resp{
-        position: relative;
-        border-radius: 22px;
-        margin-left: 145px;
-        width: 160px;
-        margin-bottom: 23px;
-        margin-top: 12px;
-        margin-right: 28px;
-        display: block;
-        list-style: none;
-        /* border:  3px solid blue; */
-    }
-    .resp a li{
-        margin: 12px 12px;
-    }
-    .resp a{
-        color: rgb(231, 184, 184);
-        font-size: 24px;
-        text-decoration: none;
-    }
    
     .intro1{
         text-align: center;
@@ -1035,9 +827,7 @@
 
 @media only screen and (min-width : 481px) and (max-width : 560px)
 {
-    .menu1{
-        display: none;
-    }
+   
  
     #first-intro{
         font-size: 55px;
@@ -1143,9 +933,7 @@
 }
 @media only screen and (min-width : 561px) and (max-width : 700px)
 {
-    .menu1{
-        display: none;
-    }
+    
    
     #first-intro{
         font-size: 35px;
@@ -1251,9 +1039,7 @@
 }
 @media only screen and (min-width : 701px) and (max-width : 800px)
 {
-    .menu1{
-        display: none;
-    }
+  
    
     .intro1{
         text-align: center;
@@ -1356,9 +1142,7 @@
 }
 @media only screen and (min-width : 801px)
 {
-    .menu1{
-        display: none;
-    }
+  
 
 #first-intro{
     font-family: 'Roboto Mono', monospace;
