@@ -29,7 +29,6 @@ position: fixed;
 }
 .navbar   {
     
-    font-family: monospace;
     padding-right: 1rem;
    
    
@@ -49,10 +48,7 @@ position: fixed;
     /* font-size: 24px; */
     text-decoration: none;
 }
-.navbar a:hover
-{text-decoration: underline; 
-    color: rgb(219, 189, 16);
-}
+
 .logo img{
     position: fixed;
     width: 55px;
@@ -102,7 +98,7 @@ position: fixed;
         list-style: none; */
         /* border:  3px solid blue; */
          padding: 10px;
-    font-family: cursive;
+    /* font-family: cursive; */
     padding-right: 1rem;
    font-size: 1.2rem;
    
@@ -118,10 +114,7 @@ position: fixed;
    
         text-decoration: none;
     }
-    .resp a:hover
-    {text-decoration: underline; font-size: 25px;
-        color: rgb(219, 189, 16);
-    }
+    
     #contact{
       
         background-image: url('../img/contact-bg.jpg') ;
@@ -228,7 +221,11 @@ position: fixed;
         display: none;
     }
 
-
+    .navbar a:hover
+    {
+        color: rgb(12, 10, 2);
+        background-color: rgb(198, 218, 218);
+    }
 
   .intro1{
     font-family: 'Roboto Mono', monospace;
