@@ -12,8 +12,8 @@
     overflow: hidden;
   background-color: rgb(2, 1, 1);
 /* margin-bottom: 233px; */
-  position: fixed;
-  justify-content: space-between;
+justify-content: space-between;
+position: fixed;
   top: 0;
   left: 0;
   right: 0;
