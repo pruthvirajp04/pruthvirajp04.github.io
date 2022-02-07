@@ -36,6 +36,9 @@ body{
         font-family: 'Roboto Mono', monospace;
     
         text-align: center;
+           margin-top: 110px;
+        
+          /* width: 600px; */
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -142,7 +145,8 @@ body{
 
 
 
-
+@media only screen and (min-width : 661px) 
+{
     .menu1{
         display: none;
     }
@@ -153,7 +157,8 @@ body{
     font-family: 'Roboto Mono', monospace;
 
     text-align: center;
-    font-size: 2.4rem;
+       margin-top: 3rem;
+    font-size: 3rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -256,3 +261,4 @@ label{
 }
 
   
+}
