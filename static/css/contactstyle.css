@@ -44,36 +44,10 @@ body{
           justify-content: center;
           align-items: center;
       }
-    .navbar{
-        display: none;
-      }
-    .resp{
-        /* position: relative; */
-        /* border-radius: 22px; */
-        margin-left: 25px;
-        /* width: 160px; */
-       /* margin: 1.2rem;
-       font-size: 0.1rem;
-        display: block;
-        list-style: none; */
-        /* border:  3px solid blue; */
-         padding: 10px;
-    
-    padding-right: 1rem;
-   font-size: 1.2rem;
    
-    /* margin: 1rem; */
-
-    display: block;
-    list-style: none;
-    }
     
    
-    .resp a{
-        color: rgb(231, 184, 184);
-   
-        text-decoration: none;
-    }
+    
    
     #contact{
       
@@ -160,14 +134,11 @@ body{
       background: none;
       
     }
-    .btn:hover{
-        background-color: black;
-        color: wheat;
-    }
+   
     label{
-        margin-left: 40px;
+        margin-left: 2rem;
         text-decoration: underline;
-        font-size: 22px;
+        font-size: 2rem;
     }
     
 }
@@ -208,7 +179,9 @@ body{
    justify-content: space-between;
     margin-top: 1rem;
 }
-
+.head-apply h2{
+  margin-top: 300px;
+}
 .head-apply{
     font-size: 16px;
     width: 35%;
@@ -224,9 +197,7 @@ body{
 
     /*border: 2px solid beige;*/
 }
-.head-apply h2{
-    margin-top: 300px;
-}
+
 .main-form{
     margin: 5px 5px 5px 5px;
   font-family: 'Roboto Condensed', sans-serif;
@@ -267,15 +238,14 @@ input[type=submit] {
 justify-content: center;
 }
 .btn{
-margin: 12px 12px 12px 12px;
   font-family: 'Orbitron', sans-serif;
-  /* padding: 12px 12px 12px 12px; */
-  width: 100px;
-  font-size: 17px;
+margin: 1rem;
+  width: 12rem;
+  font-size: 1rem;
   cursor: pointer;
-  height: 40px;
+  height: 3rem;
   color: rgb(18, 32, 3);
-  border-radius: 12px;
+  border-radius: 1rem;
   border: 2px solid rgb(161, 139, 139);
   background: none;
   
@@ -285,9 +255,9 @@ margin: 12px 12px 12px 12px;
     color: wheat;
 }
 label{
-    margin-left: 40px;
-    text-decoration: underline;
-    font-size: 22px;
+  margin-left: 2rem;
+  text-decoration: underline;
+  font-size: 2rem;
 }
 
   
