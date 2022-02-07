@@ -54,7 +54,9 @@ position: fixed;
     width: 55px;
     height: 55px;
 }
-
+.logo img:hover{
+   opacity: 0.7;
+}
 .menu1{
     margin-left: 0rem ;
     margin-top: 0.8rem ;

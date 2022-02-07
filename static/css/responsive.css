@@ -1140,9 +1140,7 @@
        }
     
 }
-@media only screen and (min-width : 801px)
-{
-  
+
 
 #first-intro{
     font-family: 'Roboto Mono', monospace;
@@ -1151,7 +1149,6 @@
 .intro1{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-      margin-top: 80px;
       margin-left: 50px;
       /* border: 2px solid firebrick; */
       width: 77%;
@@ -1167,6 +1164,7 @@
       margin-top: 50px;
       font-size: 26px
   }
-}
+
+
 
 
