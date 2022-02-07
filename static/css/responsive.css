@@ -4,1167 +4,134 @@
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Libre+Franklin&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Orbitron&family=Oswald:wght@300&family=Quicksand:wght@300;600&family=Roboto+Mono:wght@300&family=Taviraj&display=swap');
 
-@media (min-width : 210px) and (max-width : 249px)
-{   
-   
-    
-    .intro1{
-        text-align: center;
-          margin-top: 185px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 14px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 50px;
-        height: 50px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       margin-left: 38px;
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        margin-right: 32px;
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-}
-
-@media (min-width : 250px) and (max-width : 300px)
-{
-    
-   
-    
-    .intro1{
-        text-align: center;
-          margin-top: 185px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 14px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 50px;
-        height: 50px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       margin-left: 50px;
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        margin-right: 40px;
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-    
-}
-@media only screen and (min-width : 301px) and (max-width : 350px)
-{
-    
-    
-  
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 66px;
-        height: 66px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       margin-left: 38px;
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        margin-right: 32px;
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-}
-@media only screen and (min-width : 351px) and (max-width : 380px)
-{
-  
-   
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 72px;
-        height: 72px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       margin-left: 50px;
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        margin-right: 50px;
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-}
-@media only screen and (min-width : 381px) and (max-width : 425px)
-{
-    
-   
-
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 72px;
-        height: 72px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       margin-left: 50px;
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        margin-right: 50px;
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-}
-@media only screen and (min-width : 426px) and (max-width : 440px)
-{
-   
-  
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-}
-@media only screen and (min-width : 441px) and (max-width : 458px)
-{
-    
-   
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-    
-}
-@media only screen and (min-width : 459px) and (max-width : 480px)
-{
-    
-   
-    .intro1{
-        text-align: center;
-          margin-top: 190px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-    
-}
-
-@media only screen and (min-width : 481px) and (max-width : 560px)
+@media only screen and (min-width : 0px) and (max-width : 799px)
 {
    
  
     #first-intro{
-        font-size: 55px;
-    }
-    .intro1{
-        text-align: center;
-          margin-top: 90px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    
-    
-   
-      
-}
-@media only screen and (min-width : 561px) and (max-width : 700px)
-{
-    
-   
-    #first-intro{
-        font-size: 35px;
-    }
-    .intro1{
-        text-align: center;
-          margin-top: 90px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-    
-}
-@media only screen and (min-width : 701px) and (max-width : 800px)
-{
-  
-   
-    .intro1{
-        text-align: center;
-          margin-top: 80px;
-          margin-left: 3px;
-          /* border: 2px solid firebrick; */
-          /* width: 100%; */
-          display: flex;
-          flex-direction: column;
-      }
-      .name-at-top{
-          font-size: 20px;
-          /* border: 2px solid blue; */
-          
-      }
-      .head-of-me{
-          /* border: 2px solid red; */
-          margin-top: 50px;
-          font-size: 18px;
-      }
-      .intro2{
-        font-family: 'Roboto', sans-serif;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        margin-top: 110px;
-        /* border: 2px solid red; */
-        width: 90%;
-        margin-left: 5px;
-    }
-    .intrologo{
-        margin-top:20px;
-        /* border: 2px solid blue; */
-        /* margin-left: 320px; */
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    .intrologo img{
-        width: 62px;
-        height: 62px;
-    }
-   
-    .linkedin{
-        border-radius: 50%;
-    
-   
-        border: 5px solid black;
-    
-    
-    }
-    .github{
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .instagram{ 
-        border-radius: 50%;
-    
-       
-        border: 5px solid black;
-    
-    
-    }
-    .chesscom{
-        border-radius: 50%;
-        /* border-color: black; */
-        border: 5px solid black;
-       /* margin-left: 50px; */
-    
-    }
-    .lichess{
-        border-radius: 50%;
-    
-        border: 5px solid black;
-    
-        /* margin-right: 50px; */
-    }
-    .foot-of-logo{
-    /* border: 2px solid black; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 23px;
-    }
-    .foot-of-logo a{
-        /* margin-top : 23px; */
-     text-decoration: none;
-     color: black; 
-     font-size: 20px;  
-    }
-    .foot-of-logo a:hover{
-       color: rgb(85, 85, 79); 
-       }
-    
-}
-
-
-#first-intro{
-    font-family: 'Roboto Mono', monospace;
-    font-size: 60px;
-}
-.intro1{
     font-family: 'Quicksand', sans-serif;
-    text-align: center;
-      margin-left: 50px;
-      /* border: 2px solid firebrick; */
-      width: 77%;
-      display: flex;
-      flex-direction: column;
-  }
-  /* .name-at-top{
-      border: 2px solid blue;
+
+        font-size: 3.3rem;
+    }
+    .intro1{
+        text-align: center;
+        margin-top: 2rem;
+          display: flex;
+          flex-direction: column;
+      }
+      .name-at-top{
+          font-size: 20px;
+          /* border: 2px solid blue; */
+          
+      }
+      .head-of-me{
+          font-size: 1rem;
+      }
+      .intro2{
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .intrologo{
+        margin-top:20px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .intrologo img{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+    
+   
+        border: 5px solid black;
+    }
+    .intrologo img:hover{ opacity: 0.7; }
+   
+    .foot-of-logo{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 23px;
+    }
+    .foot-of-logo a{
+        /* margin-top : 23px; */
+     text-decoration: none;
+     color: black; 
+     font-size: 20px;  
+    }
+    
+    
+   
       
-  } */
-  .head-of-me{
-      /* border: 2px solid red; */
-      margin-top: 50px;
-      font-size: 26px
-  }
+}
 
+@media only screen and (min-width : 800px) 
+{
+   
+ 
+    #first-intro{
+    font-family: 'Quicksand', sans-serif;
 
+        font-size: 4.3rem;
+    }
+    .intro1{
+        text-align: center;
+        margin-top: 2rem;
+          display: flex;
+          flex-direction: column;
+      }
+      .name-at-top{
+          font-size: 20px;
+          /* border: 2px solid blue; */
+          
+      }
+      .head-of-me{
+          font-size: 1.5rem;
+      }
+      .intro2{
+        font-family: 'Roboto', sans-serif;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .intrologo{
+        margin-top:20px;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .intrologo img{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+    
+   
+        border: 5px solid black;
+    }
+    .intrologo img:hover{ opacity: 0.7; }
+   
+    .foot-of-logo{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 23px;
+    }
+    .foot-of-logo a{
+        /* margin-top : 23px; */
+     text-decoration: none;
+     color: black; 
+     font-size: 20px;  
+    }
+    
+    
+   
+      
+}
 
 

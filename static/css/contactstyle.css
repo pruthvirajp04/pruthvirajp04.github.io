@@ -154,11 +154,11 @@ body{
 
 
   .intro1{
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
 
-    text-align: center;
-       margin-top: 3rem;
-    font-size: 3rem;
+
+    text-align: center; 
+    font-size: 2rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
